@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="744.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pharnacy.controller.SupplierFormController">
+   <children>
+      <TextField fx:id="txtSupId" layoutX="67.0" layoutY="290.0" prefHeight="26.0" prefWidth="205.0" promptText="supplierId" />
+      <JFXButton layoutX="1076.0" layoutY="209.0" onAction="#btnSaveSupplierOnAction" style="-fx-background-color: #ACFFFA; -fx-background-radius: 300;" text="ADD SUPPLIER">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="1153.0" layoutY="677.0" onAction="#btnBackOnAction" text="Back" />
+      <TextField fx:id="txtSupName" layoutX="476.0" layoutY="290.0" prefHeight="26.0" prefWidth="191.0" promptText="name" />
+      <TextField fx:id="txtSupcontact" layoutX="933.0" layoutY="290.0" prefHeight="26.0" prefWidth="191.0" promptText="contact" />
+      <TableView fx:id="tblSupplier" layoutX="159.0" layoutY="357.0" prefHeight="230.0" prefWidth="922.0">
+        <columns>
+          <TableColumn fx:id="colSupId" prefWidth="283.20001220703125" text="supId" />
+          <TableColumn fx:id="colSupName" prefWidth="308.79998779296875" text="name " />
+            <TableColumn fx:id="colSupContact" prefWidth="329.60003662109375" text="contact" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="154.0" layoutY="621.0" onAction="#btnUpdateOnAction" style="-fx-background-color: #ACFFFA; -fx-background-radius: 300;" text="Update">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="426.0" layoutY="621.0" onAction="#btnClearOnAction" prefHeight="40.0" prefWidth="82.0" style="-fx-background-color: #ACFFFA; -fx-background-radius: 300;" text="Clear">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="700.0" layoutY="621.0" onAction="#btnDeleteOnAction" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #ACFFFA; -fx-background-radius: 300;" text="Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <Label prefHeight="178.0" prefWidth="1240.0" style="-fx-background-color: #dff9fb;" />
+      <ImageView fitHeight="61.0" fitWidth="55.0" layoutX="269.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/customericon.jpeg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="262.0" layoutY="150.0" onAction="#btnCustomerOnAction" text="Customer">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/dashHomeIcon.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="27.0" layoutY="150.0" onAction="#btnHomeOnAction" text="Home">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="55.0" fitWidth="67.0" layoutX="448.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/invoiceIcon.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="448.0" layoutY="150.0" onAction="#btnInvoiceOnAction" text="Invoice">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="639.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/EmployeeIcon.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="632.0" layoutY="150.0" onAction="#btnEmployeeOnAction" text="Employee">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton layoutX="819.0" layoutY="150.0" onAction="#btnStockOnAction" text="Stock">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="814.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/StockIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="998.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/productIcon.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="1000.0" layoutY="150.0" onAction="#btnProductOnAction" text="Product" />
+      <JFXButton layoutX="1140.0" layoutY="148.0" onAction="#btnShipmentOnAction" text="Shipment" />
+      <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="1147.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/ShipmentIcon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="14.0" text="SUPPLIER MANAGE" textFill="#2f3a79">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="49.0" prefHeight="27.0" prefWidth="86.0" text="Contacts">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

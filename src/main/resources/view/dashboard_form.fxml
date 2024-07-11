@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootNode" prefHeight="746.0" prefWidth="1094.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pharnacy.controller.DashboardFormController">
+   <children>
+      <ImageView fitHeight="519.0" fitWidth="1101.0" layoutX="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/sloganBackground.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="631.0" layoutY="478.0" prefHeight="106.0" prefWidth="210.0" style="-fx-background-color: #574b90;">
+         <children>
+            <Label layoutX="26.0" layoutY="39.0" prefHeight="27.0" prefWidth="169.0" text="EMPLOYEE COUNT" textFill="#faf5f5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="339.0" layoutY="481.0" prefHeight="106.0" prefWidth="203.0" style="-fx-background-color: #574b90;">
+         <children>
+            <Label layoutX="35.0" layoutY="39.0" prefHeight="27.0" prefWidth="142.0" text="OUT OF STOCK" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="390.0" layoutY="10.0" prefHeight="18.0" prefWidth="152.0" text="Dashboard" textFill="#274cbc">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="43.0" text="Home" textFill="#2a3f81">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#91aec4" height="747.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="316.0" />
+      <JFXButton layoutX="-4.0" layoutY="233.0" onAction="#btnInvoiceOnAction" prefHeight="50.0" prefWidth="316.0" style="-fx-background-color: #5F84A2;" text="Create Invoice" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="-4.0" layoutY="334.0" onAction="#btnSupplierOnAction" prefHeight="50.0" prefWidth="316.0" style="-fx-background-color: #5F84A2;" text="Supplier Manage" textFill="#f2f0f0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="6.0" layoutY="384.0" onAction="#btnEmployeeOnAction" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #8bbac9;" text="Employee Manage" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="6.0" layoutY="284.0" onAction="#btnCustomerOnAction" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #8bbac9;" text="Customer Manage" textFill="#f2eeee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="-6.0" layoutY="535.0" onAction="#btnShipmentOnAction" prefHeight="50.0" prefWidth="322.0" style="-fx-background-color: #5F84A2;" text="Shipment Manage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="-4.0" layoutY="432.0" onAction="#btnStockOnAction" prefHeight="58.0" prefWidth="316.0" style="-fx-background-color: #5F84A2;" text="Stock Manage" textFill="#fafafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="-4.0" layoutY="484.0" onAction="#btnProductOnAction" prefHeight="50.0" prefWidth="316.0" style="-fx-background-color: #8bbac9;" text="Product Manage" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1324.0" layoutY="679.0" onAction="#btnExitOnAction" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #8bbac9;" text="Exit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutY="585.0" onAction="#btnOrdersOnAction" prefHeight="43.0" prefWidth="316.0" style="-fx-background-color: #8bbac9;" text="Orders Manage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="382.0" layoutY="156.0" prefHeight="58.0" prefWidth="362.0" text="Empowering health ," textFill="#194569">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="225.0" prefHeight="58.0" prefWidth="451.0" text="One Prescription at a time" textFill="#194564">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="77.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/profileIcon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="50.0" layoutX="334.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/home.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

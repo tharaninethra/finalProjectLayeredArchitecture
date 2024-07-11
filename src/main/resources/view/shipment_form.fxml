@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="744.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pharnacy.controller.ShipmentFormController">
+   <children>
+      <Label layoutX="560.0" layoutY="46.0" prefHeight="35.0" prefWidth="280.0" text="Shipment Management">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="127.0" text="Label" />
+      <Label layoutX="301.0" layoutY="204.0" text="Label" />
+   </children>
+</AnchorPane>

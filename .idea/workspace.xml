@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aae1c95f-2700-4100-9b88-574779e7dc0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/LauncherWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/controller/CustomerFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/controller/DashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/controller/OrdersFormControlller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/PlaceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/CartTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/CustomerTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/EmployeeTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/ProductTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/StockTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/pos/view/SupplierTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/EmployeeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/OrdersIcon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ShipmentIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/StockIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/backimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/customericon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/dashHomeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/heartimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/home1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/home2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/homeicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/invoiceIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/loginBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/medicineBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/pharmacylogin1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/productIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/profileIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/registrationbackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/settingsicon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/sloganBackground.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/supplierIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/usericon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Placeorder_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Registration_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/employee_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/orders_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/product_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/shipment_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/stock_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/supplier_form.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ian61YVQdwnm6mEGTrzndkWwEZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop/layered/layered1/original/finalProjectLayeredArchitecture/src/main/java/lk/ijse/pos/model&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\layered\layered1\original\finalProjectLayeredArchitecture\src\main\java\lk\ijse\pos\model" />
+      <recent name="C:\Users\ASUS\Desktop\layered\layered1\original\finalProjectLayeredArchitecture\src\main\java\lk\ijse\pos\view" />
+      <recent name="C:\Users\ASUS\Desktop\layered\layered1\original\finalProjectLayeredArchitecture\src\main\java\lk\ijse\pharmacy" />
+      <recent name="C:\Users\ASUS\Desktop\layered\layered1\original\finalProjectLayeredArchitecture\src\main\resources" />
+      <recent name="C:\Users\ASUS\Desktop\layered\layered1\original\finalProjectLayeredArchitecture\src\main\java\lk\ijse\pos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.pos.dto" />
+      <recent name="lk.ijse.pos.entity" />
+      <recent name="lk.ijse.pos.controller" />
+      <recent name="lk.ijse.pos.dao" />
+      <recent name="lk.ijse.pos.db" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aae1c95f-2700-4100-9b88-574779e7dc0a" name="Changes" comment="" />
+      <created>1719737378992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719737378992</updated>
+    </task>
+    <servers />
+  </component>
+</project>
